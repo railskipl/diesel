@@ -1,15 +1,15 @@
 common: &common
-    access_key_id: AKIAJYTLMUDEJVQDFSMA
-    secret_access_key: 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
+    access_key_id: 
+    secret_access_key: 
 
 development:
     <<: *common
-    bucket: diesel_crm
+    bucket: 
 
 test:
     <<: *common
-    bucket: diesel_crm
+    bucket: 
 
 production:
     <<: *common
-    bucket: diesel_crm
+    bucket: 
